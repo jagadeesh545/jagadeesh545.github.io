@@ -5,8 +5,8 @@ export default function Hero({ darkMode }) {
     <section className="max-w-7xl mx-auto px-4 py-20">
       <div className="text-center space-y-6">
         <h2 className="text-5xl font-bold">Software Engineer</h2>
-        <p className={`text-xl ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
-          Building scalable systems, backend services, and AI/HPC solutions
+        <p className={`text-xl max-w-2xl mx-auto ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
+          Building scalable systems, backend services, and AI/HPC solutions. Passionate about knowledge sharing and open-source collaboration.
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
           <a
@@ -18,6 +18,15 @@ export default function Hero({ darkMode }) {
             <LinkedinIcon size={20} />
             LinkedIn
             <ExternalLink size={16} />
+          </a>
+          <a
+            href="https://github.com/jagadeesh545"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`inline-flex items-center gap-2 px-6 py-3 rounded-lg transition-colors ${darkMode ? 'bg-gray-800 text-white hover:bg-gray-700 border border-gray-700' : 'bg-white text-gray-900 hover:bg-gray-50 border border-gray-200'}`}
+          >
+            <Github size={20} />
+            GitHub
           </a>
           <a
             href="https://medium.com/@jagadeesh545"

@@ -8,7 +8,7 @@ export default function About({ darkMode }) {
             I'm a passionate software engineer with expertise in backend development, microservices architecture, and high-performance computing. I specialize in building robust, scalable systems using modern technologies and best practices.
           </p>
           <p className={`text-lg leading-relaxed ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
-            With a strong foundation in Python and full-stack development, I'm constantly exploring new technologies in AI, HPC, and distributed systems. I believe in continuous learning and sharing knowledge with the community.
+            With a strong foundation in Python and full-stack development, I'm constantly exploring new technologies in AI, HPC, and distributed systems. I'm actively seeking opportunities to collaborate on open-source projects, share my knowledge through technical writing, and connect with like-minded professionals in the community.
           </p>
         </div>
       </div>
