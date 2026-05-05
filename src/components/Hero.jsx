@@ -20,16 +20,6 @@ export default function Hero({ darkMode }) {
             <ExternalLink size={16} />
           </a>
           <a
-            href="https://github.com/jagadeesh545"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition-colors"
-          >
-            <Github size={20} />
-            GitHub
-            <ExternalLink size={16} />
-          </a>
-          <a
             href="https://medium.com/@jagadeesh545"
             target="_blank"
             rel="noopener noreferrer"
