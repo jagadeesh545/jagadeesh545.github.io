@@ -1,4 +1,4 @@
-import { ExternalLink, LinkedinIcon } from 'lucide-react'
+import { ExternalLink, LinkedinIcon, Github, MessageSquare } from 'lucide-react'
 
 export default function Hero({ darkMode }) {
   return (
@@ -8,7 +8,7 @@ export default function Hero({ darkMode }) {
         <p className={`text-xl ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
           Building scalable systems, backend services, and AI/HPC solutions
         </p>
-        <div className="flex gap-4 justify-center">
+        <div className="flex gap-4 justify-center flex-wrap">
           <a
             href="https://www.linkedin.com/in/jagadeeshmadagundi/"
             target="_blank"
@@ -16,7 +16,27 @@ export default function Hero({ darkMode }) {
             className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
           >
             <LinkedinIcon size={20} />
-            View LinkedIn Profile
+            LinkedIn
+            <ExternalLink size={16} />
+          </a>
+          <a
+            href="https://github.com/jagadeesh545"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition-colors"
+          >
+            <Github size={20} />
+            GitHub
+            <ExternalLink size={16} />
+          </a>
+          <a
+            href="https://medium.com/@jagadeesh545"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-900 transition-colors"
+          >
+            <MessageSquare size={20} />
+            Medium
             <ExternalLink size={16} />
           </a>
           <a
